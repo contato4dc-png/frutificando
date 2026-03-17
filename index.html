@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frutificando</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#f2f2f2;
+color:#333;
+}
+
+/* SECTIONS */
+section{
+padding:80px 30px;
+max-width:1100px;
+margin:auto;
+}
+
+.light{
+background:#ffffff;
+border-radius:16px;
+margin-bottom:30px;
+box-shadow:0 10px 30px rgba(0,0,0,0.05);
+}
+
+.dark{
+background:#f7f7f7;
+border-radius:16px;
+margin-bottom:30px;
+}
+
+.center{text-align:center;}
+
+h1{
+font-size:40px;
+font-weight:700;
+margin-bottom:20px;
+color:#111;
+}
+
+h2{
+font-size:28px;
+font-weight:600;
+margin-bottom:30px;
+color:#111;
+text-align:center;
+}
+
+h3{
+font-size:20px;
+margin-top:10px;
+}
+
+p{
+line-height:1.6;
+margin-bottom:10px;
+color:#555;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+background:#ff6a00;
+color:#fff;
+padding:15px 30px;
+border-radius:8px;
+text-decoration:none;
+font-weight:600;
+}
+
+/* GRID */
+.row{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+}
+
+.card{
+max-width:240px;
+text-align:center;
+}
+
+.card img{
+width:100%;
+border-radius:12px;
+margin-bottom:10px;
+object-fit:contain;
+}
+
+/* LIST */
+.list{
+text-align:left;
+max-width:700px;
+margin:20px auto;
+}
+
+/* COUNTDOWN */
+.countdown{
+display:flex;
+justify-content:center;
+gap:10px;
+margin-top:20px;
+}
+
+.time{
+background:#ff6a00;
+color:#fff;
+padding:12px;
+border-radius:8px;
+min-width:65px;
+}
+
+/* PRICING */
+.pricing{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+justify-content:center;
+}
+
+.price-card{
+background:#fff;
+padding:25px;
+border-radius:12px;
+text-align:center;
+min-width:200px;
+box-shadow:0 10px 20px rgba(0,0,0,0.08);
+}
+
+.highlight{
+border:2px solid #ff6a00;
+transform:scale(1.05);
+}
+
+.price{
+font-size:26px;
+color:#ff6a00;
+font-weight:700;
+}
+
+/* MAP */
+.map{
+width:100%;
+height:300px;
+border:none;
+border-radius:12px;
+margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="light center">
+<img src="https://i.postimg.cc/d1rsJKYs/banner-principal.png" style="width:100%;border-radius:12px;">
+
+<h1>Aprenda a educar, liderar e desenvolver crianças com propósito.</h1>
+
+<p>Um dia intensivo de ensino e capacitação com especialistas em educação, família e desenvolvimento infantil.</p>
+
+<p><strong>📅 23 de Maio<br>📍 Sítio Escola de Cura</strong></p>
+
+<p>Com participação especial de Cris Poli (SuperNanny) e convidados.</p>
+
+<div class="countdown">
+<div class="time"><span id="d">00</span>D</div>
+<div class="time"><span id="h">00</span>H</div>
+<div class="time"><span id="m">00</span>M</div>
+<div class="time"><span id="s">00</span>S</div>
+</div>
+
+<a class="btn" href="http://wa.me/5521993205578">QUERO PARTICIPAR</a>
+</section>
+
+<!-- AUTORIDADE -->
+<section class="dark center">
+<h2>Um evento criado para transformar a forma como educamos a próxima geração</h2>
+
+<p><strong>Frutificando</strong> é uma escola de ensino e capacitação intensiva criada para desenvolver pais, educadores e líderes.</p>
+
+<p>Durante este encontro você terá acesso a conteúdos práticos sobre:</p>
+
+<div class="list">
+<p>✔ Educação infantil</p>
+<p>✔ Desenvolvimento emocional</p>
+<p>✔ Estrutura familiar</p>
+<p>✔ Liderança de equipes</p>
+<p>✔ Formação de crianças com valores</p>
+</div>
+
+<p>Com profissionais que atuam diretamente com famílias e educação.</p>
+</section>
+
+<!-- PARA QUEM -->
+<section class="light center">
+<h2>Para quem é o evento</h2>
+
+<div class="list">
+<p>👨‍👩‍👧 Pais e mães</p>
+<p>👩‍🏫 Professores e educadores</p>
+<p>⛪ Líderes de ministério infantil</p>
+<p>🙋 Voluntários que trabalham com crianças</p>
+<p>📚 Pessoas que desejam aprender mais sobre educação com valores</p>
+</div>
+</section>
+
+<!-- PALESTRANTES -->
+<section class="dark">
+<h2>Palestrantes</h2>
+
+<div class="row">
+
+<div class="card">
+<img src="https://i.postimg.cc/fR1FvtGZ/Captura-de-Tela-2026-03-16-a-s-11-28-00-PM.png">
+<h3>Cris Poli</h3>
+<p>Mais de 40 anos dedicados à educação infantil. Apresentadora do Super Nanny.</p>
+<p><strong>Tema: Educação com Propósito</strong></p>
+</div>
+
+<div class="card">
+<img src="https://i.postimg.cc/Zqk7NkNY/jhon.png">
+<h3>Jonatan Siqueira</h3>
+<p>Formado pela Escola da Inteligência e idealizador do Frutificando.</p>
+</div>
+
+<div class="card">
+<img src="https://i.postimg.cc/g0Z99qVR/POLI.png">
+<h3>Cristina Mel</h3>
+<p>Conteúdo sobre musicalização infantil.</p>
+</div>
+
+<div class="card">
+<img src="https://i.postimg.cc/HsZFVP3W/Captura-de-Tela-2026-03-16-a-s-11-29-09-PM.png">
+<h3>Raphaela Pomponet</h3>
+<p>Especialista em comportamento e restauração de famílias.</p>
+</div>
+
+</div>
+</section>
+
+<!-- PAINEL -->
+<section class="light">
+<h2>Bate-papo com Convidados</h2>
+
+<div class="row">
+
+<img src="https://i.postimg.cc/nL1pCGW8/Captura-de-Tela-2026-03-16-a-s-10-32-45-PM.png">
+<img src="https://i.postimg.cc/LsvFH6qX/Captura-de-Tela-2026-03-16-a-s-10-34-09-PM.png">
+<img src="https://i.postimg.cc/wv6xVGN5/Captura-de-Tela-2026-03-16-a-s-10-31-33-PM.png">
+<img src="https://i.postimg.cc/LXR5Wscq/Captura-de-Tela-2026-03-16-a-s-10-30-19-PM.png">
+<img src="https://i.postimg.cc/VkkXvKvD/Captura-de-Tela-2026-03-16-a-s-11-07-45-PM.png">
+
+</div>
+</section>
+
+<!-- INCLUSO + HOSPEDAGEM -->
+<section class="dark center">
+<h2>O que está incluso</h2>
+
+<div class="list">
+<p>✔ Todas as palestras</p>
+<p>✔ Credencial</p>
+<p>✔ Coffee break</p>
+<p>✔ Certificado</p>
+<p>✔ Mentoria especial</p>
+</div>
+
+<h2>Onde me hospedar</h2>
+
+<p><a href="https://www.instagram.com/sitioescoladecura/" target="_blank">Instagram do local</a></p>
+<p><a href="https://wa.me/5521971880921">Contato hospedagem</a></p>
+
+<iframe class="map" src="https://www.google.com/maps?q=Sitio+Escola+de+Cura&output=embed"></iframe>
+</section>
+
+<!-- PREÇO -->
+<section class="light center">
+<h2>Ingressos</h2>
+
+<div class="pricing">
+
+<div class="price-card highlight">
+<h3>1º Lote</h3>
+<div class="price">R$ 78</div>
+<p>Até 28 de Março</p>
+</div>
+
+<div class="price-card">
+<h3>2º Lote</h3>
+<div class="price">R$ 88</div>
+</div>
+
+<div class="price-card">
+<h3>3º Lote</h3>
+<div class="price">R$ 98</div>
+<p>Até 22 de Abril</p>
+</div>
+
+<div class="price-card">
+<h3>4º Lote</h3>
+<div class="price">R$ 120</div>
+<p>Até 10 de Maio</p>
+</div>
+
+</div>
+
+<p><strong>⚠ Vagas limitadas</strong></p>
+</section>
+
+<!-- CTA FINAL -->
+<section class="dark center">
+<h2>Não perca essa oportunidade</h2>
+
+<p>Um dia que pode transformar a forma como você educa, lidera e influencia a próxima geração.</p>
+
+<a class="btn" href="http://wa.me/5521993205578">GARANTIR MINHA VAGA</a>
+</section>
+
+<script>
+const date=new Date("May 23, 2026 08:00:00").getTime();
+
+setInterval(()=>{
+let now=new Date().getTime();
+let d=date-now;
+
+document.getElementById("d").innerText=Math.floor(d/(1000*60*60*24));
+document.getElementById("h").innerText=Math.floor((d%(1000*60*60*24))/(1000*60*60));
+document.getElementById("m").innerText=Math.floor((d%(1000*60*60))/(1000*60));
+document.getElementById("s").innerText=Math.floor((d%(1000*60))/1000);
+},1000);
+</script>
+
+</body>
+</html>
